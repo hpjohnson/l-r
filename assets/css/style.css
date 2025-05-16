@@ -1,21 +1,32 @@
 /* remove browsers default styling */
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* general styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* generic styles */
+    color: #3a3a3a;
 }
 
 /* header styles */
 header {
-    background-color: lightcoral;
+  background-color: lightcoral;
 }
 
 /* main content styles */
 main {
-    background-color: lightcyan;
+  background-color: lightcyan;
+  /* force main content to take up excess space */
+  flex: 1 0 auto;
 }
 
 /* footer styles */
 footer {
-    background-color: lightgreen;
+  background-color: lightgreen;
 }
