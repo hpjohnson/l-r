@@ -127,22 +127,6 @@ main {
   color: #fff;
 }
 
-/* footer styles */
-#social-networks {
-  text-align: center;
-  padding: 20px 0;
-  display: flex;
-  justify-content: space-evenly;
-  list-style-type: none;
-}
-
-/* style the footer icons */
-#social-networks i {
-  font-size: 160%;
-  padding: 5%;
-  color: #3a3a3a;
-}
-
 /* reasons section on index page */
 #reasons {
   width: 90%;
@@ -207,6 +191,32 @@ main {
 
 #times h3 {
   color: #fafafa;
+}
+
+/* gallery */
+#photos img {
+  width: 100%;
+  line-height: 1em;
+}
+
+#photos {
+  line-height: 0;
+}
+
+/* footer styles */
+#social-networks {
+  text-align: center;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-evenly;
+  list-style-type: none;
+}
+
+/* style the footer icons */
+#social-networks i {
+  font-size: 160%;
+  padding: 5%;
+  color: #3a3a3a;
 }
 
 /*styling for tablets , 768px and up*/
