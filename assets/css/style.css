@@ -18,6 +18,14 @@ body {
   font-family: "Lato", sans-serif;
 }
 
+/* style for headings */
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #252525;
+}
+
 /* header styles */
 header {
   background-color: #fff;
@@ -35,14 +43,6 @@ header {
 header a {
   text-decoration: none;
   color: inherit;
-}
-
-/* style for headings */
-h1 {
-  font-family: "Oswald", sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  color: #252525;
 }
 
 /* navbar link styles */
@@ -99,6 +99,25 @@ main {
   height: 600px;
   width: 100%;
   background: url("../images/hero-image.webp") no-repeat center center/cover; 
+  position: relative;
+}
+
+/* text over the hero image */
+#cover-text {
+  /* not full opacity */
+  background-color: rgba(241, 109, 107, 0.7);
+  font-size: 130%;
+  position: absolute;
+  bottom: 30px;
+  width: 80%;
+  min-height: 200px;
+  padding-top: 40px;
+  padding-left: 10px;
+}
+
+/* recolor text to fit the image */
+#cover-text > h2, #cover-text > h3 {
+  color: #fff;
 }
 
 /* footer styles */
@@ -150,6 +169,12 @@ main {
   main {
     margin-top: 79px;
   }
+
+  /* hero image text */
+  #cover-text {
+    width: 300px;
+    right: 50px;
+  }  
 }
 
 /* on larger screens, show a line under the nav items when the mouse is over them*/
