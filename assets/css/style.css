@@ -182,6 +182,29 @@ main {
   justify-content: center;
 }
 
+/* meetups section */
+#times {
+  background: url("../images/dublin-city.webp") no-repeat center center / cover;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#times div {
+  color: #fafafa;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  text-align: center;
+  /* no wrapping on screens < 400px, each div expands to fill space on row */
+  flex-basis: 200px;
+  flex-grow: 1;
+  /* border to make it look nice */
+  border: 2px solid white;
+}
+
+#times h3 {
+  color: #fafafa;
+}
+
 /*styling for tablets , 768px and up*/
 @media screen and (min-width: 768px) {
   /* header */
