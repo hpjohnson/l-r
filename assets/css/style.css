@@ -19,7 +19,9 @@ body {
 }
 
 /* style for headings */
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-family: "Oswald", sans-serif;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -98,7 +100,7 @@ main {
 #hero {
   height: 600px;
   width: 100%;
-  background: url("../images/hero-image.webp") no-repeat center center/cover; 
+  background: url("../images/hero-image.webp") no-repeat center center/cover;
   position: relative;
 }
 
@@ -116,7 +118,8 @@ main {
 }
 
 /* recolor text to fit the image */
-#cover-text > h2, #cover-text > h3 {
+#cover-text > h2,
+#cover-text > h3 {
   color: #fff;
 }
 
@@ -174,7 +177,7 @@ main {
   #cover-text {
     width: 300px;
     right: 50px;
-  }  
+  }
 }
 
 /* on larger screens, show a line under the nav items when the mouse is over them*/
