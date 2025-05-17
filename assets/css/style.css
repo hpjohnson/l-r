@@ -96,6 +96,8 @@ nav {
 /* main content styles */
 main {
   /* force main content to take up excess space */
+  display: flex;
+  flex-direction: column;
   flex: 1 0 auto;
   margin-top: 47px;
 }
@@ -203,6 +205,50 @@ main {
   line-height: 0;
 }
 
+/* signup page */
+#signup {
+  background: url("/assets/images/signup-image.webp") no-repeat 75% / cover;
+  flex-grow: 1;
+  padding: 20px 10%;
+}
+
+#signup h2 {
+  color: #fafafa;
+  margin-bottom: 20px;
+}
+
+#signup-form {
+  padding: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(60, 60, 60, 0.6);
+}
+
+.text-input {
+  background-color: transparent;
+  color: #fafafa;
+  border: 1px solid #fafafa;
+  border-radius: 2px;
+  padding: 0 5px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.radio-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.join-button {
+  border-radius: 2px;
+  background-color: #454b1b;
+  color: #fafafa;
+  font-size: 100%;
+  padding: 15px 32px;
+  margin-top: 20px;
+}
 /* footer styles */
 #social-networks {
   text-align: center;
